@@ -1,30 +1,29 @@
 # Real-Time-Employee-Monitoring
 
 Real-Time Employee Monitoring System
+
 Description
+
 The Real-Time Employee Monitoring System is a comprehensive tool designed to facilitate efficient task management and real-time tracking of employee activities. It consists of three main components: a boss view, an employee view, and a login system, each with a dedicated user interface. Bosses can assign tasks, monitor progress, and manage employee activity, while employees can view their tasks and update their status.
 
 Features
+
 Boss View: Assign tasks, view logged-in employees, update or remove tasks, and view detailed task descriptions.
+
 Employee View: Display tasks assigned to the employee, mark tasks as done, and log out.
+
 Login System: Secure login for both employees and bosses, with authentication and session management.
+
 Installation
 Clone the repository:
-sh
-Copy code
 git clone https://github.com/your-username/employee-monitoring-system.git
 Navigate to the project directory:
-sh
-Copy code
 cd employee-monitoring-system
 Compile and build the project (example with Gradle):
-sh
-Copy code
 ./gradlew build
 Run the application (ensure you have JavaFX set up):
-sh
-Copy code
 java -jar build/libs/employee-monitoring-system.jar
+
 Usage
 After launching the application, log in with your provided credentials. Use the boss view to manage tasks and monitor employee activity or the employee view to manage your tasks.
 
