@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.companymanagementsystem.BossView">
+   <children>
+      <TableView layoutX="62.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" />
+      <TableView layoutX="337.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="62.0" layoutY="47.0" text="Logged Employees" />
+      <Label layoutX="337.0" layoutY="47.0" text="All Tasks" />
+      <TextField layoutX="598.0" layoutY="108.0" prefHeight="96.0" prefWidth="182.0" />
+      <Button layoutX="598.0" layoutY="283.0" mnemonicParsing="false" text="Update Task" />
+      <Button layoutX="598.0" layoutY="231.0" mnemonicParsing="false" text="Add Task" />
+      <Label layoutX="595.0" layoutY="47.0" text="Task Description" />
+      <Button layoutX="595.0" layoutY="341.0" mnemonicParsing="false" text="Logout" />
+   </children>
+</AnchorPane>

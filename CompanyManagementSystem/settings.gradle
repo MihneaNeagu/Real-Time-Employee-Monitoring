@@ -1,0 +1,9 @@
+rootProject.name = 'CompanyManagementSystem2'
+include 'Client'
+include 'Server'
+include 'Client'
+include 'Client'
+include 'Model'
+include 'Persistence'
+include 'Service'
+

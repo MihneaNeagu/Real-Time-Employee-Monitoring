@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="899.0" stylesheets="@boss-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BossController">
+   <children>
+      <TableView fx:id="loggedEmployeesTable" layoutX="62.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" />
+      <TableView fx:id="tasksTable" layoutX="337.0" layoutY="108.0" prefHeight="200.0" prefWidth="242.0" />
+      <Label layoutX="62.0" layoutY="47.0" text="Logged Employees" />
+      <Label layoutX="337.0" layoutY="47.0" text="All Tasks" />
+      <TextField fx:id="taskDescriptionTextBox" layoutX="634.0" layoutY="109.0" prefHeight="96.0" prefWidth="242.0" />
+      <Button layoutX="634.0" layoutY="232.0" mnemonicParsing="false" onAction="#sendTask" text="Send Task" />
+      <Button layoutX="634.0" layoutY="282.0" mnemonicParsing="false" onAction="#updateTask" text="Update Task" />
+      <Label layoutX="631.0" layoutY="48.0" text="Task Description" />
+      <Button fx:id="logoutButton" layoutX="830.0" layoutY="332.0" mnemonicParsing="false" onAction="#logout" text="Logout" styleClass="button button-logout" />
+      <Button fx:id="removeButton" layoutX="632.0" layoutY="332.0" mnemonicParsing="false" onAction="#removeTask" text="Remove Task" />
+   </children>
+</AnchorPane>
