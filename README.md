@@ -16,7 +16,7 @@ Login System: Secure login for both employees and bosses, with authentication an
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/employee-monitoring-system.git
+git clone https://github.com/MihneaNeagu/Real-Time-Employee-Monitoring.git
 Navigate to the project directory:
 cd employee-monitoring-system
 Compile and build the project (example with Gradle):
